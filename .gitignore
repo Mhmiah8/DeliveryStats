@@ -7,20 +7,60 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# System files
+desktop.ini
+.DS_Store
+Thumbs.db
 
-# Editor directories and files
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-export.json
+
+# Dependency directories
+node_modules/
+.cache/
+.temp/
+
+# Build files
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Editor
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
-.env
+# Testing
+/jest-report/
+/cypress/screenshots/
+/cypress/videos/
+
+# macOS
+._*
+
+# Windows
+[Tt]humbs.db
+ehthumbs*.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Debug
+*.log.*
+*.blend*
+*.blend1
+*.blend2
